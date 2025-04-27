@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Norsk Kulturarkiv</title>
+  </head>
+  <body>
+    <h1>Norsk Kulturarkiv</h1>
+    <header>
+      
+      <div>
+        <input type="text" id="search-input" placeholder="Søk etter bok..." />
+        <button onclick="searchBooks()">Søk</button>
+      </div>
+
+      <!-- Kategorifilter med select -->
+      <div>
+        <label for="category-filter">Filtrer etter kategori:</label>
+        <select id="category-filter" onchange="filterBooks()">
+          <option value="">Alle</option>
+          <option value="Roman">Roman</option>
+          <option value="Drama">Drama</option>
+          <option value="Krim">Krim</option>
+          <option value="Kongesagaer">Kongesagaer</option>
+        </select>
+      </div>
+    </header>
+    
+    <main>
+      <!-- Bokliste vises her -->
+      <div id="book-list"></div>
+    </main>
+    <footer>
+      <p>© 2025 Norsk Kulturarkiv</p>
+    </footer>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
