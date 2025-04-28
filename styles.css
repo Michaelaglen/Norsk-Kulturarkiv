@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Globale stiler */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body {
   padding: 20px;
 }
 
-/* Header Styles */
+/* Overskrifter */
 header {
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -26,7 +26,7 @@ header {
   align-items: center;
 }
 
-/* Search and Filter Styles */
+/* Søk of filter stiler */
 header div {
   margin: 10px 0;
 }
@@ -83,7 +83,7 @@ label {
   margin-right: 10px;
 }
 
-/* Book List Styles */
+/* bokliste stiler */
 #book-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -128,7 +128,7 @@ label {
   padding-bottom: 15px;
 }
 
-/* Responsive Styles */
+/* responsive design stiler */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -148,12 +148,12 @@ label {
   }
 }
 
-/* Add Norwegian-inspired colors to category tags */
+/* kategori tags */
 .book p strong {
   color: #4A90E2;
 }
 
-/* Add nice title to the top */
+/* top tittel */
 h1 {
   text-align: center;
   margin-bottom: 30px;
@@ -161,7 +161,7 @@ h1 {
   font-size: 32px;
 }
 
-/* Add footer styling */
+/* bunnen */
 footer {
   margin-top: 50px;
   text-align: center;
