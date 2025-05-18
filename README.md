@@ -10,3 +10,5 @@ Prøv prosjektet her: [Norsk Kulturarkiv Live Demo](https://norsk-kulturarkiv.ne
 - **Søkefelt:** Enkel søkefunksjon for raskt å finne ønsket materiale.
 - **Responsive layout:** Designet er responsivt og tilpasser seg ulike skjermstørrelser for en optimal brukeropplevelse på både desktop og mobile enheter.
 - **Moderne design:** Et stilrent og brukervennlig grensesnitt som gir en enkel og intuitiv navigasjon gjennom arkivet.
+
+- By Aglen.dev
